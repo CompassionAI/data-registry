@@ -24,6 +24,6 @@ _Brief_ description of the methodology used to make this dataset. This is not a 
 
 This should be a link to the code. The code should be clean. Ideally the preprocessing should be fully encapsulated but we are not forcing anything here.
 
-## Comments
+## Comments (optional)
 
 Any comments specific to the CompassionAI perspective on this dataset.
