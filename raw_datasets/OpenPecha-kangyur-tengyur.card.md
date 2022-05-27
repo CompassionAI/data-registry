@@ -15,14 +15,14 @@ Use the classes KangyurLoader and TengyurLoader in the CompassionAI/common repo,
 Code sample:
 
 ```python
-    # You need a local Dask cluster for all CompassionAI datasets
-    from dask.distributed import Client, LocalCluster
-    dask_cluster = LocalCluster(n_workers=10, threads_per_worker=1)
-    dask_client = Client(dask_cluster)
+# You need a local Dask cluster for all CompassionAI datasets
+from dask.distributed import Client, LocalCluster
+dask_cluster = LocalCluster(n_workers=10, threads_per_worker=1)
+dask_client = Client(dask_cluster)
 
-    # Data location comes from the CAI_DATA_BASE_PATH environment variable
-    from cai_common.data import KangyurLoader
-    kangyur_df = KangyurLoader().dataframe
+# Data location comes from the CAI_DATA_BASE_PATH environment variable
+from cai_common.data import KangyurLoader
+kangyur_df = KangyurLoader().dataframe
 ```
 
 ## CompassionAI comments
