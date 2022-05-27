@@ -10,7 +10,7 @@ Unfortunately, it seems that Esukhia completely removed this version of the data
 
 ## Ingestion tools
 
-Use the KangyurLoader class in the CompassionAI/common repo, in the file _/cai_common/data/open_pecha_loaders.py_.
+Use the OldKangyurLoader class in the CompassionAI/common repo, in the file _/cai_common/data/open_pecha_loaders.py_.
 
 Code sample:
 
@@ -21,8 +21,8 @@ dask_cluster = LocalCluster(n_workers=10, threads_per_worker=1)
 dask_client = Client(dask_cluster)
 
 # Data location comes from the CAI_DATA_BASE_PATH environment variable
-from cai_common.data import KangyurLoader
-kangyur_df = KangyurLoader().dataframe
+from cai_common.data import OldKangyurLoader
+kangyur_df = OldKangyurLoader().dataframe
 ```
 
 ## CompassionAI comments
