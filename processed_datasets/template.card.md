@@ -8,6 +8,10 @@ Use this as a template to make cards for preprocessed datasets. The file name is
 
 What is the _intended_ purpose of this dataset? Of course every dataset could be used beyond the intended purpose, state the original intended purpose here.
 
+## Warnings (optional)
+
+Optional section with any warnings that need to be kept in mind. For example, if the purpose of the dataset does not include something that it can easily be confused for.
+
 ## Root datasets
 
 What raw root dataset/datasets was used to make this processed dataset?
