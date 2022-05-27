@@ -1,0 +1,4 @@
+[core]
+    remote = cai-data-repo
+['remote "cai-data-repo"']
+    url = s3://compassionai/data_repo/
