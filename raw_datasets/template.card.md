@@ -16,7 +16,7 @@ Where we got this dataset from, for example a GitHub repo link. This should be r
 
 ## Ingestion tools
 
-What tools did we develop to clean and ingest this dataset. A pointer to the code is fine, no need to write full documentation here.
+What tools did we develop to clean and ingest this dataset. A code sample should be included if it is short. A pointer to the code is fine, no need to write full documentation here.
 
 ## CompassionAI comments
 
