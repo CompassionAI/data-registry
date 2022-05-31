@@ -18,6 +18,6 @@ Where we got this dataset from, for example a GitHub repo link. This should be r
 
 What tools did we develop to clean and ingest this dataset. A code sample should be included if it is short. A pointer to the code is fine, no need to write full documentation here.
 
-## CompassionAI comments
+## CompassionAI comments (optional)
 
 Any comments specific to the CompassionAI perspective on this dataset.
