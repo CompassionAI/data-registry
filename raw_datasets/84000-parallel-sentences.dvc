@@ -1,0 +1,5 @@
+outs:
+- md5: 441a66bdcedbf44ff1ed9d76c07aa8a5.dir
+  size: 108806473
+  nfiles: 124
+  path: 84000-parallel-sentences
