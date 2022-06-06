@@ -1,0 +1,5 @@
+outs:
+- md5: d6a8f94a50b6c9ed852a0d37eeaa5011.dir
+  size: 1512106
+  nfiles: 6
+  path: spm-tokenizers
