@@ -47,3 +47,15 @@ The wrapper tokenizer class can also be toggled to use a stochastic tokenization
 ```python
 tibert_tkn.stochastic_tokenization = False
 ```
+
+The models are organized by tokenizer vocabulary size. To load them from local disk, provide the name of the directory to _from_pretrained_ like so:
+
+```python
+import os
+from cai_manas.tokenizer import TibertTokenizer
+
+cai_base_bath = os.environ['CAI_DATA_BASE_PATH']
+spm_tokenizers = os.path.join(cai_base_bath, "champion_models/spm-tokenizers")
+
+tokenizer = TibertTokenizer.from_pretrained(os.path.join(spm_tokenizers, "tibert_spm_bpe_big"))
+```
