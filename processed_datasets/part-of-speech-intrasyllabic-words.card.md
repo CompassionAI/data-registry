@@ -4,7 +4,7 @@
 
 This dataset is intended to use the SOAS tags to train a part-of-speech tagger model that relies on tsheg pre-tokenization. The SOAS tags have word segmentations that do not respect the tsheg (intersyllabic dot). This dataset is pre-tokenized along the tsheg and the tags are combined when needed, so that all final tags are intersyllabic.
 
-The dataset itself is a pickle file intended to be used by the PyTorch dataset object in the _cai_manas/part_of_speech/pos_intrasyllabic_dataset.py_ file in the CompassionAI/manas repo.
+The dataset itself is a pickle file intended to be used by the PyTorch TokenTagDataset object in the _cai_common/datasets/token_tag_dataset.py_ file in the CompassionAI/common repo.
 
 ## Warnings
 
