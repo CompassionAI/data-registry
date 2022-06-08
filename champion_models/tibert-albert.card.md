@@ -1,4 +1,4 @@
-# Card: tibert-albert-base
+# Card: tibert-albert
 
 ## Purpose
 
