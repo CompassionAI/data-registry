@@ -1,12 +1,12 @@
-# Card: tibert-albert
+# Card: albert-olive-cormorant
 
 ## Purpose
 
-A monolingual transformer model for classical literary Tibetan.
+A monolingual transformer model for classical literary Tibetan that uses the Olive tokenizer.
 
 ## Model description
 
-The functional form of the transformer is identical to AlBERT. We use the tibert_spm_bpe_big tokenizer. Only the base size model of width 128 is currently available.
+The functional form of the transformer is identical to AlBERT. We use the olive_big tokenizer. Only the base size model of width 128 is currently available.
 
 ## Training data
 
