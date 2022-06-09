@@ -2,4 +2,4 @@ outs:
 - md5: 6279f7c9534bd18cbfadce72a2ee6461.dir
   size: 34254268
   nfiles: 2
-  path: part-of-speech-intrasyllabic-tags
+  path: part-of-speech-intersyllabic-olive-cormorant

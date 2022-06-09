@@ -1,16 +1,16 @@
-# Card: part-of-speech-intrasyllabic-tags
+# Card: part-of-speech-intersyllabic-olive-cormorant
 
 ## Purpose
 
-Part-of-speech tagging via a fine-tuned monolingual transformer. Uses the concatenated intrasyllabic SOAS tags described in the processed dataset part-of-speech-intrasyllabic-words.
+Part-of-speech tagging via a fine-tuned monolingual transformer. Uses the concatenated intrasyllabic SOAS tags described in the processed dataset part-of-speech-intersyllabic-olive.
 
 ## Model description
 
-Fine-tuned AlBERT-tibert transformer.
+Fine-tuned AlBERT-olive-cormorant transformer.
 
 ## Training data
 
-Directly ingests the training data from part-of-speech-intrasyllabic-words. The only change is a random 90-10 test set split.
+Directly ingests the training data from part-of-speech-intersyllabic-olive. The only change is a random 90-10 test set split.
 
 ## Training protocol
 
@@ -18,9 +18,9 @@ Use the cai_manas/part_of_speech/pos_fine_tuning.py driver script in the Compass
 
 ```bash
 python -m cai_manas.part_of_speech.pos_fine_tuning \
-    --tibert_pytorch_ckpt tibert-albert/base.bin \
+    --tibert_pytorch_ckpt albert-olive-cormorant/base.bin \
     --output_dir ~/workspace/temp/pos-tagger \
-    --train_dataset_name part-of-speech-intrasyllabic-words \
+    --train_dataset_name part-of-speech-intersyllabic-olive \
     --do_train \
     --use_mask_for_word_pieces \
     --per_device_train_batch_size 8 \
@@ -40,7 +40,3 @@ The champion is the checkpoint with the highest test set F1 score. In this run, 
 ## Notable limitations (optional)
 
 Due to resource constraints, currently this is a base-sized model of width 128.
-
-## CompassionAI comments (optional)
-
-If possible, this model should be redone on an intersyllabic version of the training data. See the discussion in the dataset card for the processed dataset part-of-speech-intrasyllabic-words.
