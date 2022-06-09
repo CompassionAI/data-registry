@@ -1,4 +1,4 @@
-# Card: spm-tokenizer-training
+# Card: dictionary-tokenizer-training
 
 ## Purpose
 

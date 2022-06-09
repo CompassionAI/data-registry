@@ -2,4 +2,4 @@ outs:
 - md5: d7f38c56fcc2da3e37541d0151987588.dir
   size: 5491432
   nfiles: 1
-  path: spm-tokenizer-training
+  path: dictionary-tokenizer-training
