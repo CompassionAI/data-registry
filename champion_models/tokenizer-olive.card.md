@@ -1,8 +1,8 @@
-# Card: spm-tokenizers
+# Card: tokenizer-olive
 
 ## Purpose
 
-A set of pre-trained Tibetan tokenizers, intended for use with token-based transformer models. They are intended to be used with the Transformers-based TibertTokenizer class.
+A set of pre-trained Tibetan SentencePiece tokenizers, intended for use with token-based transformer models. They are intended to be used with the Transformers-based TibertTokenizer class.
 
 ## Model description
 
@@ -10,7 +10,7 @@ These are all SentencePiece models, see here: <https://github.com/google/sentenc
 
 ## Training data
 
-See the spm-tokenizer-training processed dataset.
+See the dictionary-tokenizer-training processed dataset.
 
 ## Training protocol
 
@@ -20,12 +20,12 @@ See the outer block of "manas/tokenizer/tokenizer.py" in the CompassionAI/manas 
 import os
 
 cai_base_bath = os.environ['CAI_DATA_BASE_PATH']
-spm_tokenizer_training = os.path.join(cai_base_bath, "processed_datasets/spm-tokenizer-training")
-spm_tokenizers = os.path.join(cai_base_bath, "champion_models/spm-tokenizers")
+dict_tokenizer_training = os.path.join(cai_base_bath, "processed_datasets/dictionary-tokenizer-training")
+olive_tokenizers = os.path.join(cai_base_bath, "champion_models/olive-tokenizers")
 
 TibertTokenizer.train(
     os.path.join(spm_tokenizer_training, "spm_train.txt"),
-    os.path.join(spm_tokenizers, "tibert_spm_bpe_big"),
+    os.path.join(spm_tokenizers, "olive_big"),
     model_type='bpe',
     vocab_size=10000)
 ```
@@ -33,6 +33,8 @@ TibertTokenizer.train(
 ## Notable limitations
 
 Individual characters are included in the training data. This means you can tokenize absolutely any string of Tibetan text. Of course, this doesn't mean you will get reasonable results from downstream models this way.
+
+Because of the dataset chosen for this set of tokenizers, the tokenizers don't always handle postfixed intrasyllabic particles well.
 
 ## CompassionAI comments
 
@@ -55,7 +57,7 @@ import os
 from cai_manas.tokenizer import TibertTokenizer
 
 cai_base_bath = os.environ['CAI_DATA_BASE_PATH']
-spm_tokenizers = os.path.join(cai_base_bath, "champion_models/spm-tokenizers")
+olive_tokenizers = os.path.join(cai_base_bath, "champion_models/tokenizer-olive")
 
-tokenizer = TibertTokenizer.from_pretrained(os.path.join(spm_tokenizers, "tibert_spm_bpe_big"))
+tokenizer = TibertTokenizer.from_pretrained(os.path.join(olive_tokenizers, "olive_big"))
 ```
