@@ -1,0 +1,5 @@
+frozen: true
+deps:
+- path: gs://eeisenst-experiments/training-results/tibert-base-128-no-sop/
+outs:
+- path: tibert-base-128-no-sop
