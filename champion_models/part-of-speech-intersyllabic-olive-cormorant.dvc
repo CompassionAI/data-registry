@@ -1,5 +1,5 @@
 outs:
-- md5: 6279f7c9534bd18cbfadce72a2ee6461.dir
-  size: 34254268
-  nfiles: 2
+- md5: bce76fe78adab8460fa3b79d4432a89b.dir
+  size: 34254321
+  nfiles: 3
   path: part-of-speech-intersyllabic-olive-cormorant
