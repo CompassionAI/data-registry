@@ -1,5 +1,7 @@
 # Card: albert-olive-cormorant
 
+The details of the training protocol are in the training results card.
+
 ## Purpose
 
 A monolingual transformer model for classical literary Tibetan that uses the Olive tokenizer.
