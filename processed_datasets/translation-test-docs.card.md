@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Sample documents for manual review of translation outputs.
+Sample documents for manual review of translation outputs. Also includes input file level configuration overrides for the translation CLI - these are things like how to segment and pre-process a text.
 
 ## Warnings
 
