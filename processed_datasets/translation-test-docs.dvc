@@ -1,0 +1,5 @@
+outs:
+- md5: 3760f1545c1075a63157451593d174d0.dir
+  size: 1182047
+  nfiles: 8
+  path: translation-test-docs
