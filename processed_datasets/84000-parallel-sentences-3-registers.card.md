@@ -1,8 +1,8 @@
-# Card: 84000-parallel-sentences
+# Card: 84000-parallel-sentences-3-registers
 
 ## Purpose
 
-Train a classical Tibetan to English translation model that follows the style established by 84,000.
+Train a classical Tibetan to English translation model that follows the style established by 84,000. This version of the dataset is intended for training encoders with 3 registers.
 
 ## Warnings
 
@@ -35,15 +35,19 @@ The final dataset is made from 6 concatenated intermediate datasets:
 5. _folio-registers_: Entire translated folios from _84000-translations-tei_, segmented into registers with no concatenation.
 6. _dictionary_: Dictionary augmentation dataset with no concatenation.
 
-See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/d02f16e0ad53513a70abd43b68ffd110f2d08bcb/cai_garland/data/parallel_dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/d02f16e0ad53513a70abd43b68ffd110f2d08bcb/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
+See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
 
 ## How to reproduce
 
 Just run "cai_garland.data.parallel_dataset_prep" with no arguments from the CompassionAI/garland repo. The commit SHA for the current version is:
 
-> d02f16e0ad53513a70abd43b68ffd110f2d08bcb
+> aadd502bb08e1bac20794b26d91d5fd3f1e5a084
 
-The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/d02f16e0ad53513a70abd43b68ffd110f2d08bcb/cai_garland/data/parallel_dataset_prep.config).
+The tokenizer is in the CompassionAI/manas repo, commit SHA:
+
+> c8864943348ed821a4ddd11869d360158f54966b
+
+The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.config).
 
 ## Comments
 
