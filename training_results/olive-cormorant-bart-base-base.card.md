@@ -1,4 +1,4 @@
-# Card: olive-cormorant-bart
+# Card: olive-cormorant-bart-base-base
 
 The general information on the model being trained is in the champion model card. Here we only have information specific to the training run.
 
@@ -7,8 +7,6 @@ The general information on the model being trained is in the champion model card
 The base code is in the CompassionAI/garland repo, commit SHA:
 
 > b59d85f0b06128795202b260fca5e67530d4e0cc
-
-If possible, include the following links to Github:
 
 The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/b59d85f0b06128795202b260fca5e67530d4e0cc/cai_garland/training/train_nmt.py).
 
@@ -28,6 +26,6 @@ There was no sweeping.
 
 The champion model is taken to be the final model after the first complete epoch. **NB**: the validation BLEU was ~62 at this point.
 
-## Additional comments (optional)
+## Additional comments
 
-This is basically a test run of this model. It doesn't currently seem worth to us to invest in translation models without registers, so we don't anticipate further investing in training this model better.
+This is basically a test run of this model. It doesn't currently seem worth to us to invest in short encoders without registers for translation, so we don't anticipate further investing in training this model better.
