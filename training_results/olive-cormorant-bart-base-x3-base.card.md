@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 The base code is in the CompassionAI/garland repo, commit SHA:
 
-> 69c68713f25b468bc4d4e8c296a1b88c6d41de09
+> 9200da0000eec2df0e0a821f6d6264e3da2afd9e
 
-The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/69c68713f25b468bc4d4e8c296a1b88c6d41de09/cai_garland/training/train_nmt.py).
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/9200da0000eec2df0e0a821f6d6264e3da2afd9e/cai_garland/training/train_nmt.py).
 
-The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/69c68713f25b468bc4d4e8c296a1b88c6d41de09/cai_garland/training/train_nmt.config) directory.
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/9200da0000eec2df0e0a821f6d6264e3da2afd9e/cai_garland/training/train_nmt.config) directory.
 
 ## Execution steps
 
@@ -24,7 +24,7 @@ There was no sweeping.
 
 ## Champion selection
 
-The champion model is taken to be the final model after 2.5 epochs. **NB**: the validation BLEU was almost 70 at this point and the learning rate was <3e-5.
+The champion model is taken to be the model with largest BLEU on the _test_ (not validation) split of the dataset. The test split is further rebalanced to be 1:1 with and without registers, and subsampled to 20%.
 
 ## Additional comments
 
