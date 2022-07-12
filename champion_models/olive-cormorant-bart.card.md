@@ -17,7 +17,7 @@ The only currently available sizes are the base size of the encoder and the base
 
 ## Training data
 
-See the processed dataset _84000-parallel-sentences-no-registers_.
+See the processed datasets _84000-parallel-sentences-no-registers_ and _84000-parallel-sentences-3-registers_.
 
 ## CompassionAI comments
 
