@@ -6,7 +6,7 @@ The Derge edition of the Kangyur with proofread corrections. Documentation of th
 
 ## Source
 
-From the releases in the [OpenPecha Derge Kangyur GitHub repo](https://github.com/OpenPecha/P000001). We use the plain release, not the paginated. The current version is at <https://github.com/OpenPecha/P000001/releases/download/v32/kagyur_derge_parpu_plain_P000001.zip>.
+From the releases in the [OpenPecha Derge Kangyur GitHub repo](https://github.com/OpenPecha/P000001). We use the paginated release. The current version is at <https://github.com/OpenPecha-Data/P000001/releases/download/v32/kagyur_derge_parpu_pages_P000001.zip>.
 
 ## Ingestion tools
 
