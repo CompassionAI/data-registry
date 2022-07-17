@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A set of pre-trained Tibetan SentencePiece tokenizers, intended for use with token-based transformer models. They are intended to be used with the Transformers-based TibertTokenizer class.
+A set of pre-trained Tibetan SentencePiece tokenizers, intended for use with token-based transformer models. They are intended to be used with the Transformers-based CAITokenizer class.
 
 ## Model description
 
@@ -23,7 +23,7 @@ cai_base_bath = os.environ['CAI_DATA_BASE_PATH']
 dict_tokenizer_training = os.path.join(cai_base_bath, "processed_datasets/dictionary-tokenizer-training")
 olive_tokenizers = os.path.join(cai_base_bath, "champion_models/olive-tokenizers")
 
-TibertTokenizer.train(
+CAITokenizer.train(
     os.path.join(spm_tokenizer_training, "spm_train.txt"),
     os.path.join(spm_tokenizers, "olive_big"),
     model_type='bpe',
@@ -54,10 +54,10 @@ The models are organized by tokenizer vocabulary size. To load them from local d
 
 ```python
 import os
-from cai_manas.tokenizer import TibertTokenizer
+from cai_manas.tokenizer import CAITokenizer
 
 cai_base_bath = os.environ['CAI_DATA_BASE_PATH']
 olive_tokenizers = os.path.join(cai_base_bath, "champion_models/tokenizer-olive")
 
-tokenizer = TibertTokenizer.from_pretrained(os.path.join(olive_tokenizers, "olive_big"))
+tokenizer = CAITokenizer.from_pretrained(os.path.join(olive_tokenizers, "olive_big"))
 ```
