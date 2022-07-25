@@ -1,5 +1,5 @@
 outs:
-- md5: 3ff820df4159915e78470e993fde76f6.dir
-  size: 4387782
-  nfiles: 1
+- md5: 7d975e38807a781cd419f213e6bfcd5e.dir
+  size: 8775580
+  nfiles: 3
   path: part-of-speech-intersyllabic-olive
