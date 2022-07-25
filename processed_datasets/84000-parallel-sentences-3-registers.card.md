@@ -26,14 +26,11 @@ The dataset is a concatenation of different augmentation strategies:
 - Segmentation into registers: The Tibetan side can be lengthened by segmenting long text into registers. The current segmentation uses 3 registers. Register break is marked with the [eor] token, there are n-1 of these tokens for n registers. The default segmentation is greedy. We also add non-greedy augmented register segmentations that use random splits for the register breaks that are required to contain no more than "model_length" (currently 128) tokens.
 - Dictionary augmentation: The Tibetan side is a single dictionary entry, with a tsheg (intersyllabic dot) enforced at the end. There is a separate dataset row for each English dictionary entry.
 
-The final dataset is made from 6 concatenated intermediate datasets:
+The final dataset is made from 3 concatenated intermediate datasets:
 
 1. _naive-concats_: Consecutive concatenation with no shuffling or any kind of registers.
-2. _naive-concats-shuffled_: Shuffled concatenation with no registers.
-3. _concatted-registers_: Consecutive concatenation with no shuffling but with registers.
-4. _concatted-registers-shuffled_: Shuffled concatenation with registers.
-5. _folio-registers_: Entire translated folios from _84000-translations-tei_, segmented into registers with no concatenation.
-6. _dictionary_: Dictionary augmentation dataset with no concatenation.
+2. _concatted-registers-shuffled_: Shuffled concatenation with registers.
+3. _dictionary_: Dictionary augmentation dataset with no concatenation.
 
 See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
 
