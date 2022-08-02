@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 Everything is in the CompassionAI/manas repo, commit SHA:
 
-> 4480b81eaa3f6676ca826ecfc726a05f25cd25bf
+> 22215f397d305be31a09284470dd2f2148d187e4
 
-Configuration files are in [cai_manas/part_of_speech/pos_fine_tuning.config](https://github.com/CompassionAI/manas/tree/4480b81eaa3f6676ca826ecfc726a05f25cd25bf/cai_manas/part_of_speech/pos_fine_tuning.config).
+Configuration files are in [cai_manas/part_of_speech/pos_fine_tuning.config](https://github.com/CompassionAI/manas/tree/22215f397d305be31a09284470dd2f2148d187e4/cai_manas/part_of_speech/pos_fine_tuning.config).
 
-The training driver is [cai_manas/part_of_speech/pos_fine_tuning.py](https://github.com/CompassionAI/manas/blob/4480b81eaa3f6676ca826ecfc726a05f25cd25bf/cai_manas/part_of_speech/pos_fine_tuning.py).
+The training driver is [cai_manas/part_of_speech/pos_fine_tuning.py](https://github.com/CompassionAI/manas/blob/22215f397d305be31a09284470dd2f2148d187e4/cai_manas/part_of_speech/pos_fine_tuning.py).
 
 ## Execution steps
 
