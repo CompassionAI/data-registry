@@ -1,5 +1,5 @@
 outs:
-- md5: 4a98bb95b59b40f3675ee9ffd1b14119.dir
-  size: 1232970173
+- md5: c48ac7376791049ad2a3d63f096a9363.dir
+  size: 111993886
   nfiles: 6
   path: 84000-parallel-sentences-no-registers
