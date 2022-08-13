@@ -1,0 +1,5 @@
+outs:
+- md5: 52c14b014a707b20ad4e22c014806566.dir
+  size: 729029
+  nfiles: 2
+  path: olive-cormorant-bart-base-base
