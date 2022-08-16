@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 The base code is in the CompassionAI/garland repo, commit SHA:
 
-> d61eadfde08d03922918b6a3b7ee733b73eff9e7
+> a67ca99d3b1725cfbc848a1652054ab6d286540a
 
-The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/d61eadfde08d03922918b6a3b7ee733b73eff9e7/cai_garland/training/train_nmt.py).
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/training/train_nmt.py).
 
-The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/d61eadfde08d03922918b6a3b7ee733b73eff9e7/cai_garland/training/train_nmt.config) directory.
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/training/train_nmt.config) directory.
 
 ## Execution steps
 
@@ -24,8 +24,8 @@ There was no sweeping.
 
 ## Champion selection
 
-The champion model is taken to be the final model at the end of 9 epochs. **NB**: the validation BLEU was in the mid-30s and still rising at this point. However, the validation loss is clearly increasing at this point.
+The champion model is taken to be the model with the lowest validation loss.
 
 ## Additional comments
 
-This is basically a test run of this model. It doesn't currently seem worth to us to invest in short encoders without registers for translation, so we don't anticipate further investing in training this model better.
+This is basically a test run of this model. It doesn't currently seem worth to us to invest in short encoders without some mechanism for injecting prior context from the target language, so we don't anticipate further investing in training this model better. It mostly serves as a baseline.
