@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 The base code is in the CompassionAI/garland repo, commit SHA:
 
-> 4114e177af3e8a2d1d050fb42e27efe2cbbd206b
+> dfb908586f1392ee67ee66e1353ff4a59432e9dc
 
-The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/4114e177af3e8a2d1d050fb42e27efe2cbbd206b/cai_garland/training/train_nmt.py).
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/dfb908586f1392ee67ee66e1353ff4a59432e9dc/cai_garland/training/train_nmt.py).
 
-The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/4114e177af3e8a2d1d050fb42e27efe2cbbd206b/cai_garland/training/train_nmt.config) directory.
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/dfb908586f1392ee67ee66e1353ff4a59432e9dc/cai_garland/training/train_nmt.config) directory.
 
 The commit SHA for the CompassionAI/manas repo, used for the tokenizer, is:
 

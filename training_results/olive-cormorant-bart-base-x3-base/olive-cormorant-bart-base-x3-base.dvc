@@ -1,5 +1,0 @@
-frozen: true
-deps:
-- path: /media/eeisenst/1434C61F34C603A8/compassionai/training_results/olive-cormorant-bart-base-x3-base/
-outs:
-- path: olive-cormorant-bart-base-x3-base
