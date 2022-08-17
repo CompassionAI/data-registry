@@ -4,7 +4,7 @@ The details of the training protocol are in the training results card.
 
 ## Purpose
 
-A Tibetan-to-English encoder-decoder model, intended for machine translation of long text. The Tibetan "base-base" version does not have any registers, while "base-x3-base" has 3 registers.
+A Tibetan-to-English encoder-decoder model, intended for machine translation of long text. The Tibetan "base-base" version does not have any registers, while the "base-xN-base" models have N registers.
 
 ## Model description
 
@@ -17,7 +17,7 @@ The only currently available sizes are the base size of the encoder and the base
 
 ## Training data
 
-See the processed datasets _84000-parallel-sentences-no-registers_ and _84000-parallel-sentences-3-registers-only_.
+See the processed datasets _84000-parallel-sentences-no-registers_ and _84000-parallel-sentences-N-registers-only_.
 
 ## CompassionAI comments
 
