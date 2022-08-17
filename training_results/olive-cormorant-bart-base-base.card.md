@@ -24,7 +24,7 @@ There was no sweeping.
 
 ## Champion selection
 
-The champion model is taken to be the model with the lowest validation loss.
+The champion model is taken to be the model with lowest loss on the test (which is called validation in training) split of the dataset.
 
 ## Additional comments
 
