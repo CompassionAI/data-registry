@@ -1,0 +1,5 @@
+outs:
+- md5: 158fef82add006f3663664481c2f3ecf.dir
+  size: 113
+  nfiles: 1
+  path: bart-variants
