@@ -1,0 +1,4 @@
+[core]
+    remote = compassionai-s3
+['remote "compassionai-s3"']
+    url = s3://compassionai/data-registry/raw_datasets_dvc_cache/
