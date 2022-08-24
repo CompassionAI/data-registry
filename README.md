@@ -63,4 +63,12 @@ to correctly version them.
 
 The other subdirectories are synced with an S3 bucket but not versioned. This is because, in my opinion, they don't need to be, and versioning them is just a giant waste of HDD and S3 space. This is only my opinion.
 
+The _experiments_ subdirectory is intended for experiment outputs that are not versioned or synced. Whenever you put something here, it will either be total experimental garbage (eg something to test code you're working on) or an experimental dataset for a model you're working on. If the latter:
+
+1. Make a card for it,
+2. Add the dataset directory to .gitignore.
+3. Commit the card and the .gitignore change to git.
+
+The _experiments_ subdirectory is intended to contain both processed datasets and models. If you found a useful raw dataset, add it to the raw_datasets subdirectory ASAP.
+
 Every entry should have a corresponding card Markdown file. Take a look at other cards of the same type as examples. Every subdirectory also has a card template, it is called _template.card.md_.
