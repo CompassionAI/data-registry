@@ -7,44 +7,44 @@ Registry for models and datasets, managed by dvc
 
 First make sure that all your permissions are set up correctly and that the command
 
-```bash
-aws s3 ls s3://compassionai/data-registry/
->                           PRE champion_models/
->                           PRE processed_datasets/
->                           PRE raw_datasets_dvc_cache/
->                           PRE training_results/
+```console
+$ aws s3 ls s3://compassionai/data-registry/
+                           PRE champion_models/
+                           PRE processed_datasets/
+                           PRE raw_datasets_dvc_cache/
+                           PRE training_results/
 ```
 
 works correctly. You should then be able to simply run _pull.sh_:
 
-```bash
-cd data-registry
-./pull.sh
+```console
+$ cd data-registry
+$ ./pull.sh
 ```
 
 ### Subsequent use
 
 To push everything use
 
-```bash
-cd data-registry
-./push.sh
+```console
+$ cd data-registry
+$ ./push.sh
 ```
 
 This will DVC push the raw datasets and S3 sync the rest. Note that you first need to DVC add all the changes in the raw datasets you may have made.
 
 To pull everything use
 
-```bash
-cd data-registry
-./pull.sh
+```console
+$ cd data-registry
+$ ./pull.sh
 ```
 
 To reset a raw dataset, use
 
-```bash
-cd data-registry/raw_datasets
-dvc checkout ${dataset_to_reset}
+```console
+$ cd data-registry/raw_datasets
+$ dvc checkout ${dataset_to_reset}
 ```
 
 To reset some other datum, simply delete its directory and run _pull.sh_.
@@ -53,10 +53,10 @@ To reset some other datum, simply delete its directory and run _pull.sh_.
 
 Raw datasets are the base datasets that are not derived. This is a versioned DVC cache backed by an S3 remote. Whenever updating these, please use
 
-```bash
-cd data-registry/raw_datasets
-dvc add ${updated_dataset}
-dvc push
+```console
+$ cd data-registry/raw_datasets
+$ dvc add ${updated_dataset}
+$ dvc push
 ```
 
 to correctly version them.
