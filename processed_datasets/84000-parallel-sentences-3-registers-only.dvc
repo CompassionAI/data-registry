@@ -1,5 +1,0 @@
-outs:
-- md5: 0ab6e22bfe3a6e4e3fb9eb50d685e2cf.dir
-  size: 118033399
-  nfiles: 6
-  path: 84000-parallel-sentences-3-registers-only

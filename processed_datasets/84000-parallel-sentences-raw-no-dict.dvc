@@ -1,5 +1,0 @@
-outs:
-- md5: 9dda6a25e073d50194e8b9d36aac3ea1.dir
-  size: 35399198
-  nfiles: 6
-  path: 84000-parallel-sentences-raw-no-dict

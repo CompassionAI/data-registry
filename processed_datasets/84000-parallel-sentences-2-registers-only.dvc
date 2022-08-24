@@ -1,5 +1,0 @@
-outs:
-- md5: cfb92081b4b40c05d9be57a2ae0a54e5.dir
-  size: 80651002
-  nfiles: 6
-  path: 84000-parallel-sentences-2-registers-only
