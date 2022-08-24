@@ -72,3 +72,5 @@ The _experiments_ subdirectory is intended for experiment outputs that are not v
 3. Commit the card and the .gitignore change to git.
 
 The _experiments_ subdirectory is intended to contain both processed datasets and models. If you found a useful raw dataset, add it to the _raw_datasets_ subdirectory ASAP.
+
+For *training_results* you usually don't need to include the checkpoints, just the tb_logs, config files and any saved intermediate files. It is up to you, but try not to waste space for no reason.
