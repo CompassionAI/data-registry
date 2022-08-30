@@ -14,7 +14,7 @@ def is_card_name_valid(card_path, card_fn):
         print(f"{ForeColor.RED}ERROR:{ForeColor.RESET} card {card_fn} has incorrect header")
         print("  Card header:", card_header)
         print("  Expected header:", expected_header)
-    return expected_header == card_header
+    return not expected_header == card_header
 
 
 def validate_dir(dir_name):
@@ -33,7 +33,7 @@ def validate_dir(dir_name):
             full_card_path = os.path.join(dir_name, card_path)
             if not os.path.isdir(full_card_path):
                 print(f"{ForeColor.RED}ERROR:{ForeColor.RESET} card file {full_card_path} has no corresponding path")
-            is_card_name_valid(card_path, fn_path)
+            error |= is_card_name_valid(card_path, fn_path)
     return error
 
 
