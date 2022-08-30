@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import os
+import sys
 from colorama import init as init_colorama, Fore as ForeColor
 
 
@@ -44,3 +45,5 @@ if __name__ == "__main__":
             error |= validate_dir(fn)
     if not error:
         print(f"{ForeColor.GREEN}No errors found!{ForeColor.RESET}")
+        sys.exit(0)
+    sys.exit(100)
