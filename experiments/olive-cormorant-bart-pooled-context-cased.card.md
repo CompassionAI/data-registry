@@ -1,4 +1,4 @@
-# Card: olive-cormorant-bart-pooled-context
+# Card: olive-cormorant-bart-pooled-context-cased
 
 ## Purpose
 

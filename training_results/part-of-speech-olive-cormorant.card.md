@@ -1,4 +1,4 @@
-# Card: part-of-speech-intersyllabic-olive-cormorant
+# Card: part-of-speech-olive-cormorant
 
 The general information on the model being trained is in the champion model card. Here we only have information specific to the training run.
 

@@ -1,4 +1,4 @@
-# Card: olive-cormorant-bart
+# Card: olive-cormorant-bart-base-x3-base
 
 The general information on the model being trained is in the champion model card. Here we only have information specific to the training run.
 

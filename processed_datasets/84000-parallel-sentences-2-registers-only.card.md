@@ -1,4 +1,4 @@
-# Card: 84000-parallel-sentences-3-registers-only
+# Card: 84000-parallel-sentences-2-registers-only
 
 ## Purpose
 
