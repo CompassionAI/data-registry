@@ -17,7 +17,7 @@ A Tibetan-to-English encoder-decoder model, intended for machine translation of 
   4. Sum pool the transformed encodings,
   5. And inject this pooled embedding into the second token position.
 
-There are cross-attention layers added to the decoder, see the [EncoderDecoderModel class](https://huggingface.co/docs/transformers/v4.20.1/en/model_doc/encoder-decoder#transformers.EncoderDecoderModel) in Hugging Face Transformers. The new layers are the cross-attention and the CausalLM head in the decoder. All new layers are initialized randomly.
+There are cross-attention layers added to the decoder, see the [EncoderDecoderModel class](https://huggingface.co/docs/transformers/v4.20.1/en/model_doc/encoder-decoder#transformers.EncoderDecoderModel) in Hugging Face Transformers. The new layers are the cross-attention and the CausalLM head in the decoder, as well as a Bart encoder layer on top of a frozen Bart encoder for the context. All new layers are initialized randomly.
 
 The only currently available sizes are the base size of the encoder and the base size for the decoder.
 
