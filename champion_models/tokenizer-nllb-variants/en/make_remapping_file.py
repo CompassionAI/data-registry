@@ -10,4 +10,4 @@ for split in datasets.keys():
     dataset = datasets[split]
     lines.extend([ex['english'] for ex in dataset])
 
-tokenizer.make_remapping_file(lines, "champion_models/tokenizer-nllb-variants/en/token_remapping")
+tokenizer.make_remapping_file(lines, "champion_models/tokenizer-nllb-variants/en/token_remapping", ["eng_Latn"])
