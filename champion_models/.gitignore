@@ -5,3 +5,5 @@
 /part-of-speech-olive-cormorant
 /bart-variants
 /olive-cormorant-bart-pooled-context
+/nllb-variants
+/tokenizer-nllb-variants
