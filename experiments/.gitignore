@@ -7,3 +7,5 @@
 /olive-cormorant-bart-pooled-context-cased
 /olive-cormorant-nllb
 /olive-cormorant-nllb-pooled-context
+/84000-parallel-sentences-raw-with-bidirectional-context
+/olive-cormorant-nllb-bidirectional-context
