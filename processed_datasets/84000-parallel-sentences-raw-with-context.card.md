@@ -10,7 +10,7 @@ _84000-parallel-sentences_
 
 ## Methodology
 
-The dataset is a processed version of the raw 84,000 parallel sentences. See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/79930ce5f9e588502d6c862e3f0d573a43187862/cai_garland/data/parallel_dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/79930ce5f9e588502d6c862e3f0d573a43187862/cai_garland/data/parallel_dataset_prep.py) for the details.
+The dataset is a processed version of the raw 84,000 parallel sentences. See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/79930ce5f9e588502d6c862e3f0d573a43187862/cai_garland/data/dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/79930ce5f9e588502d6c862e3f0d573a43187862/cai_garland/data/parallel_dataset_prep.py) for the details.
 
 The context embeddings consist of the BART encoder embeddings of the last 50 words preceding the English translation of the current sentence fragment in a full text of any of the published 84,000 translations. If multiple translations match, one is selected at random.
 
@@ -20,7 +20,7 @@ Just run "cai_garland.data.parallel_dataset_prep" with no arguments from the Com
 
 > 79930ce5f9e588502d6c862e3f0d573a43187862
 
-The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/79930ce5f9e588502d6c862e3f0d573a43187862/cai_garland/data/parallel_dataset_prep.config).
+The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/79930ce5f9e588502d6c862e3f0d573a43187862/cai_garland/data/dataset_prep.config).
 
 ## Comments
 

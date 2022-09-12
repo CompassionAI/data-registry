@@ -32,7 +32,7 @@ The final dataset is made from 3 concatenated intermediate datasets:
 2. _concatted-registers-shuffled_: Shuffled concatenation with registers.
 3. _dictionary_: Dictionary augmentation dataset with no concatenation.
 
-See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
+See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
 
 ## How to reproduce
 
@@ -44,7 +44,7 @@ The tokenizer is in the CompassionAI/manas repo, commit SHA:
 
 > c8864943348ed821a4ddd11869d360158f54966b
 
-The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/parallel_dataset_prep.config).
+The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/aadd502bb08e1bac20794b26d91d5fd3f1e5a084/cai_garland/data/dataset_prep.config).
 
 ## Comments
 

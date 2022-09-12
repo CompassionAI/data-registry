@@ -14,7 +14,7 @@ The dataset is a concatenation of the raw 84,000 parallel sentences with the dic
 
 - Dictionary augmentation: The Tibetan side is a single dictionary entry, with a tsheg (intersyllabic dot) enforced at the end. There is a separate dataset row for each English dictionary entry.
 
-See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/a86f27342e1cb8d474798efa158600eac868c2b0/cai_garland/data/parallel_dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/a86f27342e1cb8d474798efa158600eac868c2b0/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
+See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/a86f27342e1cb8d474798efa158600eac868c2b0/cai_garland/data/dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/a86f27342e1cb8d474798efa158600eac868c2b0/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
 
 ## How to reproduce
 
@@ -22,7 +22,7 @@ Just run "cai_garland.data.parallel_dataset_prep" with no arguments from the Com
 
 > a86f27342e1cb8d474798efa158600eac868c2b0
 
-The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/a86f27342e1cb8d474798efa158600eac868c2b0/cai_garland/data/parallel_dataset_prep.config).
+The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/a86f27342e1cb8d474798efa158600eac868c2b0/cai_garland/data/dataset_prep.config).
 
 ## Comments
 

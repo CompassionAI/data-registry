@@ -22,7 +22,7 @@ The final dataset is made from 6 concatenated intermediate datasets:
 2. _naive-concats-sequenced_: sequenced concatenation with no registers.
 3. _dictionary_: Dictionary augmentation dataset with no concatenation.
 
-See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/data/parallel_dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
+See the [root Hydra config file](https://github.com/CompassionAI/garland/blob/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/data/dataset_prep.config/config.yaml) and the corresponding functions in [the preprocessing driver](https://github.com/CompassionAI/garland/blob/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/data/parallel_dataset_prep.py) for the details of these datasets.
 
 ## How to reproduce
 
@@ -30,7 +30,7 @@ Just run "cai_garland.data.parallel_dataset_prep" with no arguments from the Com
 
 > a67ca99d3b1725cfbc848a1652054ab6d286540a
 
-The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/data/parallel_dataset_prep.config).
+The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/a67ca99d3b1725cfbc848a1652054ab6d286540a/cai_garland/data/dataset_prep.config).
 
 ## Comments
 
