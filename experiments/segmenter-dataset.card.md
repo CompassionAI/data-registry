@@ -21,7 +21,3 @@ Just run "cai_garland.data.segmentation_dataset_prep" with no arguments from the
 > a86f27342e1cb8d474798efa158600eac868c2b0
 
 The preprocessing code is Hydra configured. The config files are can be found [in GitHub](https://github.com/CompassionAI/garland/tree/a86f27342e1cb8d474798efa158600eac868c2b0/cai_garland/data/dataset_prep.config).
-
-## Comments
-
-There is a lot of Sanskrit in this dataset. We don't currently have a good way to convert it to English.
