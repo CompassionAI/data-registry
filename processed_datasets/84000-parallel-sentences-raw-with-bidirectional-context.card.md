@@ -14,7 +14,7 @@ The dataset is a processed version of the raw 84,000 parallel sentences. See the
 
 The target context embeddings consist of the BART encoder embeddings of the last 50 words preceding the English translation of the current sentence fragment in a full text of any of the published 84,000 translations. If multiple translations match, one is selected at random.
 
-The source context embeddings are one additional 84,000 segment, sequenced with the follows-anywhere sequencing strategy and separated with the source text to be translated with a [MASK] token.
+The source context embeddings are one additional 84,000 segment, sequenced with the follows-anywhere sequencing strategy and separated with the source text to be translated with a <mask> token.
 
 ## How to reproduce
 
