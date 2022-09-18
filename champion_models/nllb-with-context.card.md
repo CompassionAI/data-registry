@@ -1,12 +1,12 @@
-# Card: nllb-bidirectional-context
+# Card: nllb-with-context
 
 ## Purpose
 
-A Tibetan-to-English encoder-decoder model, intended for machine translation of long text. This version is trained with context pooling and additional context in the source language added on the right (future text).
+A Tibetan-to-English encoder-decoder model, intended for machine translation of long text. This version is trained with context pooling.
 
 The training commit SHA for CompassionAI/garland is:
 
-> 9a267d4f119ff1896ec22ec9c87ee28b0f7660ee
+> 09df2c051e72fbc095b4acf9466bf138e431486b
 
 ## Model description
 
@@ -18,7 +18,6 @@ The training commit SHA for CompassionAI/garland is:
   3. Transform the BART encodings with a dense layer with GELU activation,
   4. Sum pool the transformed encodings,
   5. And inject this pooled embedding into the second token position.
-- The source language context is added on the right, representing future source tokens to be translated. The context is separated from the text to be translated with a [MASK] token. All source context is fed to the encoder together with the to-be-translated source text.
 
 There are cross-attention layers added to the decoder, see the [EncoderDecoderModel class](https://huggingface.co/docs/transformers/v4.20.1/en/model_doc/encoder-decoder#transformers.EncoderDecoderModel) in Hugging Face Transformers. The new layers are the cross-attention and the CausalLM head in the decoder. All new layers are initialized randomly.
 
@@ -26,7 +25,7 @@ The only currently available sizes are the base size of the encoder and the base
 
 ## Training data
 
-See the processed datasets _84000-parallel-sentences-raw-with-bidirectional-context_.
+See the processed datasets _84000-parallel-sentences-raw-with-context_.
 
 ## CompassionAI comments
 

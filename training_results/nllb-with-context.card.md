@@ -1,4 +1,4 @@
-# Card: nllb-bidirectional-context
+# Card: nllb-with-context
 
 The general information on the model being trained is in the champion model card. Here we only have information specific to the training run.
 
@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 The base code is in the CompassionAI/garland repo, commit SHA:
 
-> 9a267d4f119ff1896ec22ec9c87ee28b0f7660ee
+> 09df2c051e72fbc095b4acf9466bf138e431486b
 
-The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/9a267d4f119ff1896ec22ec9c87ee28b0f7660ee/cai_garland/training/train_nmt.py).
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/09df2c051e72fbc095b4acf9466bf138e431486b/cai_garland/training/train_nmt.py).
 
-The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/9a267d4f119ff1896ec22ec9c87ee28b0f7660ee/cai_garland/training/train_nmt.config) directory.
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/09df2c051e72fbc095b4acf9466bf138e431486b/cai_garland/training/train_nmt.config) directory.
 
 ## Execution steps
 
