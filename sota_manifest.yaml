@@ -1,0 +1,12 @@
+champion_models:
+  - albert-olive-cormorant/base
+  - nllb-variants/600M-pooled-context-injection-cased
+  - nllb-variants/600M-pooled-context-injection
+  - olive-cormorant-nllb-pooled-context-cased
+  - olive-cormorant-nllb-pooled-context
+  - part-of-speech-intersyllabic-olive-cormorant
+  - segmenter-olive-cormorant
+  - tokenizer-nllb-variants/bo
+  - tokenizer-nllb-variants/en-cased
+  - tokenizer-nllb-variants/en
+  - tokenizer-olive/olive_big
