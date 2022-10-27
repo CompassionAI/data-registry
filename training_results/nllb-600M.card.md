@@ -1,4 +1,4 @@
-# Card: olive-cormorant-nllb-pooled-context-base-600M
+# Card: nllb-600M
 
 The general information on the model being trained is in the champion model card. Here we only have information specific to the training run.
 
@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 The base code is in the CompassionAI/garland repo, commit SHA:
 
-> 3bbdef3daca354e241bf2cb6c61598eea01b2561
+> 5278dcf686e941ab368b74ac40a875d66f71b175
 
-The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/3bbdef3daca354e241bf2cb6c61598eea01b2561/cai_garland/training/train_nmt.py).
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/5278dcf686e941ab368b74ac40a875d66f71b175/cai_garland/training/train_nmt.py).
 
-The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/3bbdef3daca354e241bf2cb6c61598eea01b2561/cai_garland/training/train_nmt.config) directory.
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/5278dcf686e941ab368b74ac40a875d66f71b175/cai_garland/training/train_nmt.config) directory.
 
 ## Execution steps
 

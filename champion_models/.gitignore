@@ -13,3 +13,4 @@
 /nllb
 /nllb-with-context
 /olive-cormorant-nllb-pooled-context-cased
+/olive-cormorant-nllb-frozen-lm-head

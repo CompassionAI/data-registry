@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 The base code is in the CompassionAI/garland repo, commit SHA:
 
-> 19d4dfdd74c8fe7b99de5d8ea7821887e3f35dc5
+> adf3014abf986389b5cddfb3bb2e7f4b65cac21c
 
-The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/19d4dfdd74c8fe7b99de5d8ea7821887e3f35dc5/cai_garland/training/train_nmt.py).
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/adf3014abf986389b5cddfb3bb2e7f4b65cac21c/cai_garland/training/train_nmt.py).
 
-The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/19d4dfdd74c8fe7b99de5d8ea7821887e3f35dc5/cai_garland/training/train_nmt.config) directory.
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/adf3014abf986389b5cddfb3bb2e7f4b65cac21c/cai_garland/training/train_nmt.config) directory.
 
 ## Execution steps
 

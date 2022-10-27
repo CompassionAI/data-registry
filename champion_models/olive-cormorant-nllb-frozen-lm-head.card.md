@@ -1,10 +1,10 @@
-# Card: olive-cormorant-nllb
+# Card: olive-cormorant-nllb-frozen-lm-head
 
 The details of the training protocol are in the training results card.
 
 ## Purpose
 
-A Tibetan-to-English encoder-decoder model, intended for machine translation of short fragments. Trained _without_ context injection.
+A Tibetan-to-English encoder-decoder model, intended for machine translation of short fragments. Trained _without_ context injection. This version of the model has a frozen LM head.
 
 ## Model description
 

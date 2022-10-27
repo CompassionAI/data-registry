@@ -1,4 +1,4 @@
-# Card: nllb-with-context
+# Card: nllb-with-context-600M-small-tokenizer
 
 The general information on the model being trained is in the champion model card. Here we only have information specific to the training run.
 
@@ -6,11 +6,11 @@ The general information on the model being trained is in the champion model card
 
 The base code is in the CompassionAI/garland repo, commit SHA:
 
-> 09df2c051e72fbc095b4acf9466bf138e431486b
+> b5a03f6684df84dfa9e5f16a7ac28636c90c0eda
 
-The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/09df2c051e72fbc095b4acf9466bf138e431486b/cai_garland/training/train_nmt.py).
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/b5a03f6684df84dfa9e5f16a7ac28636c90c0eda/cai_garland/training/train_nmt.py).
 
-The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/09df2c051e72fbc095b4acf9466bf138e431486b/cai_garland/training/train_nmt.config) directory.
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/b5a03f6684df84dfa9e5f16a7ac28636c90c0eda/cai_garland/training/train_nmt.config) directory.
 
 ## Execution steps
 

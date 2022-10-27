@@ -6,7 +6,7 @@ A Tibetan-to-English encoder-decoder model, intended for machine translation of 
 
 The training commit SHA for CompassionAI/garland is:
 
-> 09df2c051e72fbc095b4acf9466bf138e431486b
+> b5a03f6684df84dfa9e5f16a7ac28636c90c0eda
 
 ## Model description
 
