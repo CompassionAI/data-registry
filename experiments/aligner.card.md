@@ -23,7 +23,7 @@ See the [aligner notebook in CompassionAI/garland](https://github.com/Compassion
 
 Just run the cells in the [aligner notebook](https://github.com/CompassionAI/garland/blob/main/notebooks/Aligner.ipynb) from the CompassionAI/garland repo. The commit SHA for the current version is:
 
-> ec1162c62fd79454b063ade2bf0a25677161fc96
+> f3a8dafdac28309f58c6065874b7e216769dd0b8
 
 ## Model
 
@@ -57,7 +57,7 @@ The general information on the model being trained is in the champion model card
 
 Everything is in the CompassionAI/garland repo, commit SHA:
 
-> ec1162c62fd79454b063ade2bf0a25677161fc96
+> f3a8dafdac28309f58c6065874b7e216769dd0b8
 
 Configuration files are in [cai_garland/training/aligner.config](https://github.com/CompassionAI/garland/blob/main/cai_garland/training/aligner.config/config.yaml).
 
