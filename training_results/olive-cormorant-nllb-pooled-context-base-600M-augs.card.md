@@ -24,6 +24,16 @@ The driver file is in [cai_garland/training/train_nmt.py](https://github.com/Com
 
 The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/a342c2865b25182f40c7fd13faa3d33928876add/cai_garland/training/train_nmt.config) directory.
 
+### Normalized, with blank context augmentation
+
+The base code is in the CompassionAI/garland repo, commit SHA:
+
+> ff0da3615eade038698a535921fabe3a35d18bd0
+
+The driver file is in [cai_garland/training/train_nmt.py](https://github.com/CompassionAI/garland/blob/ff0da3615eade038698a535921fabe3a35d18bd0/cai_garland/training/train_nmt.py).
+
+The config files are in the [cai_garland/training/train_nmt.config](https://github.com/CompassionAI/garland/blob/ff0da3615eade038698a535921fabe3a35d18bd0/cai_garland/training/train_nmt.config) directory.
+
 ## Execution steps
 
 Execute the training driver with no arguments.
